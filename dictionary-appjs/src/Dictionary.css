@@ -1,11 +1,16 @@
 .Dictionary h1 {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 29px;
+    color: #212529
+
 }
 
 .Dictionary section {
-  background:rgb(255, 251, 251);
+  background:#fff;
   padding: 30px;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
@@ -13,16 +18,24 @@
 }
 
 .Dictionary input {
-  width: 100%;
-  border-radius: 6px;
-  padding: 6px 10px;
-  color: #616365;
-  border: 1px solid #ddd;
+    display: block;
+    height: 64px;
+    color: #666;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 22px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
 }
+
 
 .Dictionary .hint {
   font-size: 11px;
-  margin-top: 5px;
-  color: #616365;
+  margin-top: 12px;
   font-weight: 400;
+  color: #212529;
+  line-height: 1.5;
+  display: block;
+  font-size: .875em;
 }
